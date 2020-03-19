@@ -4,7 +4,8 @@ sudo: false
 
 env:
   global:
-    - secure: ""
+     # Doctr deploy key for klauer/testvac
+     - secure: "50Fg86U94e38DFJkc/loCZAF7SDxaPT6D9iVVSsOpUY/RfKHlU3ls4QI8G2St5vSzCEqheeoQSmFMY+CeeYdOcCyR2GIxLVzGStyOj4gaUGjYiesyO0vTrTHPxqgahvbRy4dU3vTfDUmAnVKAVGHFJgKWXGvO8X3Va/BeIHWkOj517E5aXePpF/KQcH/Nd/vbB3V2eEWr3oUvzRsmy7fmv2ao+4zfooV4Cr1sjCXjcHDvjC37Ch7QlXLVn8PeqqQqoKzhEQPO+ls9cquw+QlRryMaK1SxzURX2ssxw29hNcBKHQA20fDf1CN8Q73PmRP6O0kRfN4Geq8rQ0L/0BkD5qLqVWSIlOM6qqEV+/rtNAEr2fN2ttoXyZE4Dkbjq7MomvPwEIpbx3wJOMWOOV5FpiY1WCPn55/WtraubE+1lKRR9exwc4WgLTXnowX+Ne1Q/Ed1YtVn3nDTORllKRCxL/6gvVAQk9Aaod/OGWCfqTE8WBC+l54vogz/meAaA4y/g3BSJPcn+0lKTEwtWSZnpoO9hu94txKi4RRKBcCSa4xji/vsd8Ts9DZM7Wh8s5CSSEqogiKtYT65PSMEnIpnwekBfUrDO9GJtEnUUSXZV1oGO/nTwadlXwuTPd2IkJQah8MBUflneFubFO4gAJmdRgEcj+PAlA7rWHhanawyw4="
 
 matrix:
   include:
